@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PDMD_Practica2_Jaime</string>
+    <string name="str_invertirH">InvertirH</string>
+    <string name="str_invertirV">InvertirV</string>
+    <string name="str_escala_gris">Escala Gris</string>
+    <string name="str_filtroR">Filtro Rojo</string>
+    <string name="str_filtroA">Filtro Azul</string>
+    <string name="str_filtroV">Filtro Verde</string>
+    <string name="str_rotarIzq">Girar Izq</string>
+    <string name="str_rotarDch">Girar Dch</string>
+    <string name="str_select">Seleccionar Img</string>
+</resources>
