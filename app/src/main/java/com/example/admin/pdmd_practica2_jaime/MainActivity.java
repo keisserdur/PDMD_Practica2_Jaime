@@ -17,6 +17,7 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
     private ImageView iv;
+    private Uri data;
     private final int REQUEST_IMAGE_GET = 1,ROJO=2,AZUL=3,VERDE=4,INVERTH=5,INVERTV=6;
 
     @Override
@@ -24,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         iv = (ImageView) findViewById(R.id.imageView);
+        if((data=getIntent().getData())!=null){
+            iv.setImageURI(data);
+        }
 
     }
 
